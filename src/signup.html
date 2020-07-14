@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SignUp</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Links -->
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="../styles/bootstrap-css/bootstrap.css">
+	<link rel="stylesheet" href="../styles/custom-css/footer.css">
+	<link rel="stylesheet" href="../styles/custom-css/nav.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../styles/custom-css/signUp.css">
+</head>
+
+<body>
+	<!--Header-->
+  <div class="nav-container container-fluid shadow-sm">
+    <nav class="navbar nav-top navbar-expand-md navbar-light container-md px-0">
+      <a class="navbar-brand" href="index.html">
+        <img src="../../img/Logo 01 Main 01.svg" width="81px" height="44px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bold" href="list-of-campaigns.html">Lend</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bold" href="signup.html">Borrow</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 font-weight-bold" href="about-us.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-md-4 font-weight-bold" href="login.html">
+              <button class="btn btn-fml-secondary px-4">
+                Login
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+	<!-- main content goes in here -->
+	<div class="bodyrow">
+		<section id="formSection">
+			<h1 class="h1style !important mt-5">Welcome to</h1>
+			<h2 class="h2style ">Fund my Laptop</h2>
+			<p class="mb-5">Help Achieve your dreams with funding for your laptops at little or no cost</p>
+			<br><br>
+			<form>
+				<div class="bodyrow">
+					<input type="text" class="name" id="firstName" placeholder="First Name" required>
+					<input type="text" class="name" id="lastName" placeholder="Last Name" required>
+				</div>
+				<input type="email" id="email" placeholder="Email" required>
+				<input type="text" id="password" placeholder="password" required>
+				<div>
+					<input class="check" type="checkbox" required>
+					<label class="terms"> I agree to the <span>Terms Policy Conditions</span></label>
+				</div>
+				<button id="submitButton">Sign Up</button>
+				<div class="separator">OR</div>
+				<a id="googleSignupButton"><img src="../img/google_logo.png" />Sign up with Google</a>
+				<p>Already have an account?<a href="login.html"><span> Sign in</span></a></p>
+			</form>
+		</section>
+		<section class="imageSection"></section>
+	</div>
+
+
+
+	<!-- Footer -->
+	<footer class="footer container-fluid bg-fml-primary pt-4 pt-md-5 pb-3 ">
+		<div class="footer-li container">
+			<div class="row mx-0 d-none d-md-flex mb-3">
+				<a href="#" class="footer-logo">
+					<img src="../../img/logo-footer.svg" alt="" width="154px" height="80px" />
+				</a>
+			</div>
+			<div class="row flex-column flex-md-row footer-links mx-0 justify-content-center justify-content-md-between text-center text-md-left">
+				<ul class="nav flex-column order-3 order-md-1 why mt-4 pt-4 pt-md-0 mt-md-0">
+					<li><a href="#">23, Intel Chip, Silicon Valley</a></li>
+					<li><a href="#">info@fundmylaptop.com</a></li>
+					<li><a href="#">09023144819</a></li>
+				</ul>
+				<ul class="nav flex-column mt-md-3 order-1 order-md-2">
+					<li><a href="about-us.html">Why choose fundmylaptop?</a></li>
+					<li><a href="about-us.html">How P2P lending works</a></li>
+				</ul>
+				<ul class="nav flex-column mt-md-3 order-2 order-md-3">
+					<li><a href="about-us.html">About fundmylaptop</a></li>
+					<li><a href="contact-us.html">Contact us</a></li>
+				</ul>
+			</div>
+			<div class="row mx-0 mt-4 mt-md-2 pt-4 pt-md-5 social-footer-icons-container text-center justify-content-center justify-content-md-start">
+				<ul class="nav social-footer-icons">
+					<li>
+						<a href=""><img src="../../img/brandico_facebook.svg" /></a>
+					</li>
+					<li>
+						<a href=""><img src="../../img/ant-design_instagram-outlined.svg" /></a>
+					</li>
+					<li>
+						<a href=""><img src="../../img/ant-design_twitter-outlined.svg" /></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container mt-4 mt-md-3 text-light">
+			<div class="row flex-column flex-md-row mx-0 credits-container pt-3 justify-content-md-between justify-content-center">
+				<p class="mb-0 text-center text-md-left">
+					2020 &copy; Copyright All Rights Reserved
+				</p>
+
+				<ul class="nav bye">
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="privacy-policy.html">Privacy Policy</a></li>
+					<li><a href="terms-conditions.html">Terms & Conditions</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
